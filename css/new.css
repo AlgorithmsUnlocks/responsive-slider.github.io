@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Urbanist', sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #456;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(111, 107, 128, 0.1);
+    border-radius: 10px;
+}
+.card .image-box{
+    height: 136px;
+    background: #E5E5E5;
+    border-radius: 10px 10px  80px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .image-box img{
+    height: 95px;
+    height: 95px;
+}
+.card .profile-details{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    height: 294px;
+    padding: 45px 45px 0;
+}
+.card .profile-details img{
+    height: 40px;
+    height: 40px;
+}
+.card .profile-details .name-job h3.name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.card .profile-details .name-job h4.job{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+.card .profile-details .name-job p.review-txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slider-container{
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+  }
+  span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active-next {
+    background: #C2B6FB;
+    width: 14px;
+    height: 14px;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev{
+    background: #C2B6FB;
+    width: 14px;
+    height: 14px;
+}
