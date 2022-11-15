@@ -1,0 +1,209 @@
+
+/* About Page   */
+
+#about-us{
+    
+    background: #BCDDFF;
+    padding: 70px 0;
+    }
+    #about-us .about-top h3{
+        font-family: 'Urbanist',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px; 
+        color: #2150CF;
+        text-align: center;
+         
+    }
+    #about-us .about-top p{
+        font-family: 'Urbanist',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6F6B80;
+        margin: 40px 0;
+    }
+    
+    #mission-part{
+        height: 600px;
+        display: flex;
+        background: rgba(60, 58, 89, 0.05);
+    }
+    .mission-wrapper .mission-content{
+        background: #FFFFFF;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+        margin: 0;
+    }
+    .mission-content .mission-image {
+        margin: -1px 0px -4px 0px;
+    }
+    .mission-content .mission-txt{
+        padding: 70px;
+    }
+    .mission-content .mission-txt h3{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .mission-content .mission-txt p{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6F6B80;
+        margin: 25px 0;
+    }
+    @media screen and (max-width: 992px) {
+        .mission-wrapper .mission-content {
+            grid-template-columns: repeat(2,1fr);
+        } 
+    }
+    @media screen and (max-width: 778px) {
+        .mission-wrapper .mission-content {
+            grid-template-columns: repeat(1,1fr);
+        }  
+        .mission-content .mission-txt{
+            padding: 10px;
+        }
+        .mission-content .mission-image {
+            margin:0;
+        }
+    }
+    
+    
+    
+    #vission-part{
+        height: 600px;
+        display: flex;
+        background: rgba(60, 58, 89, 0.05);
+    }
+    .vission-wrapper .vission-content{
+        background: #FFFFFF;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+        margin: 0;
+    }
+    .vission-content .vission-image {
+        margin: -1px 0px -4px 0px;
+    }
+    .vission-content .vission-txt{
+        padding: 70px;
+    }
+    .vission-content .vission-txt h3{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .vission-content .vission-txt p{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6F6B80;
+        margin: 25px 0;
+    }
+    @media screen and (max-width: 992px) {
+        .vission-wrapper .vission-content {
+            grid-template-columns: repeat(2,1fr);
+        } 
+    }
+    @media screen and (max-width: 778px) {
+        .vission-wrapper .vission-content {
+            grid-template-columns: repeat(1,1fr);
+        }  
+        .vission-content .vission-txt{
+            padding: 10px;
+        }
+        .vission-content .vission-image {
+            margin:0;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    /* Brand chhose*/
+    
+    .brand-choose-content h3{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+    }
+    .brand-choose-content p{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6F6B80;
+    }
+    .brand-choose-content .choose-box{
+        display: flex;
+        align-items: center;
+        background: #F5F5F7;
+    border: 0.5px solid #2150CF;
+    border-radius: 5px;
+    margin: 10px 0;
+    }
+    .brand-choose-content .choose-box .iocn{
+        border-right: 0.5px solid #2150CF;
+        padding: 8px 15px;
+    }
+    .brand-choose-content .choose-box .text{
+        padding: 0 0 0 25px;
+    }
+    .brand-choose-image{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .brand-choose-image .last-image {
+        margin: -83px 0 0 15px;
+    }
+    .brands-choose-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    section#why-choose-brands {
+        padding: 60px 0;
+        background: #953a3a;
+    }
+    
+    @media screen and (max-width: 992px) {
+        .brands-choose-wrapper {
+            grid-template-columns: repeat(2,1fr);
+        } 
+    }
+    @media screen and (max-width: 778px) {
+        .brands-choose-wrapper {
+            grid-template-columns: repeat(1,1fr);
+        }  
+        .brand-choose-image{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .brand-choose-image .last-image {
+            margin:0;
+        }
+    }
